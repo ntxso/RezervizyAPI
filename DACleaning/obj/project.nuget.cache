@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5aBGWZCNXRo=",
+  "dgSpecHash": "u8SPDHPxSOo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\DACleaning\\DACleaning.csproj",
+  "projectFilePath": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\RezervizyAPI\\DACleaning\\DACleaning.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nyzte\\.nuget\\packages\\epplus\\6.1.2\\epplus.6.1.2.nupkg.sha512",
     "C:\\Users\\nyzte\\.nuget\\packages\\epplus.interfaces\\6.1.1\\epplus.interfaces.6.1.1.nupkg.sha512",

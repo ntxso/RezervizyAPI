@@ -1,6 +1,6 @@
 is_global = true
 build_property.RootNamespace = DACleaning
-build_property.ProjectDir = C:\Users\nyzte\source\repos\CoreUtility\DACleaning\
+build_property.ProjectDir = C:\Users\nyzte\source\repos\CoreUtility\RezervizyAPI\DACleaning\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTUseWindowsUIXamlProjections = false

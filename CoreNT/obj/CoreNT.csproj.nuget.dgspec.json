@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\CoreNT\\CoreNT.csproj": {}
+    "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\RezervizyAPI\\CoreNT\\CoreNT.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\CoreCRUD\\Core.csproj": {
+    "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\RezervizyAPI\\CoreCRUD\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\CoreCRUD\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\RezervizyAPI\\CoreCRUD\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\CoreCRUD\\Core.csproj",
+        "projectPath": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\RezervizyAPI\\CoreCRUD\\Core.csproj",
         "packagesPath": "C:\\Users\\nyzte\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\CoreCRUD\\obj\\",
+        "outputPath": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\RezervizyAPI\\CoreCRUD\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -80,18 +80,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\CoreNT\\CoreNT.csproj": {
+    "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\RezervizyAPI\\CoreNT\\CoreNT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\CoreNT\\CoreNT.csproj",
+        "projectUniqueName": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\RezervizyAPI\\CoreNT\\CoreNT.csproj",
         "projectName": "CoreNT",
-        "projectPath": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\CoreNT\\CoreNT.csproj",
+        "projectPath": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\RezervizyAPI\\CoreNT\\CoreNT.csproj",
         "packagesPath": "C:\\Users\\nyzte\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\CoreNT\\obj\\",
+        "outputPath": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\RezervizyAPI\\CoreNT\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -113,8 +113,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\CoreCRUD\\Core.csproj": {
-                "projectPath": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\CoreCRUD\\Core.csproj"
+              "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\RezervizyAPI\\CoreCRUD\\Core.csproj": {
+                "projectPath": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\RezervizyAPI\\CoreCRUD\\Core.csproj"
               }
             }
           }
@@ -168,7 +168,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

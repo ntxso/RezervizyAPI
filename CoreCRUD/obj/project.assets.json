@@ -7275,11 +7275,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\CoreCRUD\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\RezervizyAPI\\CoreCRUD\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\CoreCRUD\\Core.csproj",
+      "projectPath": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\RezervizyAPI\\CoreCRUD\\Core.csproj",
       "packagesPath": "C:\\Users\\nyzte\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\CoreCRUD\\obj\\",
+      "outputPath": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\RezervizyAPI\\CoreCRUD\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7348,7 +7348,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   },

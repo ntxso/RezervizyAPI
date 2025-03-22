@@ -1,0 +1,10 @@
+C:\Users\nyzte\source\repos\CoreUtility\RezervizyAPI\CoreUtility\bin\Debug\netstandard2.1\CoreUtility.deps.json
+C:\Users\nyzte\source\repos\CoreUtility\RezervizyAPI\CoreUtility\bin\Debug\netstandard2.1\CoreUtility.dll
+C:\Users\nyzte\source\repos\CoreUtility\RezervizyAPI\CoreUtility\bin\Debug\netstandard2.1\CoreUtility.pdb
+C:\Users\nyzte\source\repos\CoreUtility\RezervizyAPI\CoreUtility\obj\Debug\netstandard2.1\CoreUtility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nyzte\source\repos\CoreUtility\RezervizyAPI\CoreUtility\obj\Debug\netstandard2.1\CoreUtility.AssemblyInfoInputs.cache
+C:\Users\nyzte\source\repos\CoreUtility\RezervizyAPI\CoreUtility\obj\Debug\netstandard2.1\CoreUtility.AssemblyInfo.cs
+C:\Users\nyzte\source\repos\CoreUtility\RezervizyAPI\CoreUtility\obj\Debug\netstandard2.1\CoreUtility.csproj.CoreCompileInputs.cache
+C:\Users\nyzte\source\repos\CoreUtility\RezervizyAPI\CoreUtility\obj\Debug\netstandard2.1\CoreUtility.sourcelink.json
+C:\Users\nyzte\source\repos\CoreUtility\RezervizyAPI\CoreUtility\obj\Debug\netstandard2.1\CoreUtility.dll
+C:\Users\nyzte\source\repos\CoreUtility\RezervizyAPI\CoreUtility\obj\Debug\netstandard2.1\CoreUtility.pdb

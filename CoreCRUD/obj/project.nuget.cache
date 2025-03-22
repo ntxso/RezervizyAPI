@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ntOGoc6JcvA=",
+  "dgSpecHash": "jctItV/vmNk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\CoreCRUD\\Core.csproj",
+  "projectFilePath": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\RezervizyAPI\\CoreCRUD\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nyzte\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\nyzte\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",

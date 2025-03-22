@@ -1,6 +1,6 @@
 is_global = true
 build_property.RootNamespace = AutofacNew
-build_property.ProjectDir = C:\Users\nyzte\source\repos\CoreUtility\AutofacNew\
+build_property.ProjectDir = C:\Users\nyzte\source\repos\CoreUtility\RezervizyAPI\AutofacNew\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTUseWindowsUIXamlProjections = false

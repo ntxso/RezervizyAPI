@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CoreNT")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+caff5cc627c224d03830d08c623cc3a43d9cbf9f")]
 [assembly: System.Reflection.AssemblyProductAttribute("CoreNT")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CoreNT")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

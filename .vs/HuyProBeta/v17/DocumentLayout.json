@@ -1,0 +1,180 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\RezervizyAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3FE08EDC-1EA8-412E-9111-E6BC65609ED2}|DACleaning\\DACleaning.csproj|c:\\users\\nyzte\\source\\repos\\coreutility\\rezervizyapi\\dacleaning\\concrete\\entityframework\\context\\ntxsocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FE08EDC-1EA8-412E-9111-E6BC65609ED2}|DACleaning\\DACleaning.csproj|solutionrelative:dacleaning\\concrete\\entityframework\\context\\ntxsocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFD53F07-4C86-42B7-896D-F873E73CB117}|BusinessWithSupplier\\BusinessWithSupplier.csproj|c:\\users\\nyzte\\source\\repos\\coreutility\\rezervizyapi\\businesswithsupplier\\concrete\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFD53F07-4C86-42B7-896D-F873E73CB117}|BusinessWithSupplier\\BusinessWithSupplier.csproj|solutionrelative:businesswithsupplier\\concrete\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEB27DC2-A073-42B8-BE58-16692740BC38}|WebAPI\\WebAPI.csproj|c:\\users\\nyzte\\source\\repos\\coreutility\\rezervizyapi\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AEB27DC2-A073-42B8-BE58-16692740BC38}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEB27DC2-A073-42B8-BE58-16692740BC38}|WebAPI\\WebAPI.csproj|c:\\users\\nyzte\\source\\repos\\coreutility\\rezervizyapi\\webapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEB27DC2-A073-42B8-BE58-16692740BC38}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFD53F07-4C86-42B7-896D-F873E73CB117}|BusinessWithSupplier\\BusinessWithSupplier.csproj|c:\\users\\nyzte\\source\\repos\\coreutility\\rezervizyapi\\businesswithsupplier\\concrete\\addressmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFD53F07-4C86-42B7-896D-F873E73CB117}|BusinessWithSupplier\\BusinessWithSupplier.csproj|solutionrelative:businesswithsupplier\\concrete\\addressmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFD53F07-4C86-42B7-896D-F873E73CB117}|BusinessWithSupplier\\BusinessWithSupplier.csproj|c:\\users\\nyzte\\source\\repos\\coreutility\\rezervizyapi\\businesswithsupplier\\concrete\\customermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFD53F07-4C86-42B7-896D-F873E73CB117}|BusinessWithSupplier\\BusinessWithSupplier.csproj|solutionrelative:businesswithsupplier\\concrete\\customermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFD53F07-4C86-42B7-896D-F873E73CB117}|BusinessWithSupplier\\BusinessWithSupplier.csproj|c:\\users\\nyzte\\source\\repos\\coreutility\\rezervizyapi\\businesswithsupplier\\concrete\\customernotemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFD53F07-4C86-42B7-896D-F873E73CB117}|BusinessWithSupplier\\BusinessWithSupplier.csproj|solutionrelative:businesswithsupplier\\concrete\\customernotemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEB27DC2-A073-42B8-BE58-16692740BC38}|WebAPI\\WebAPI.csproj|c:\\users\\nyzte\\source\\repos\\coreutility\\rezervizyapi\\webapi\\controllers\\customerwithsuppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEB27DC2-A073-42B8-BE58-16692740BC38}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\customerwithsuppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEB27DC2-A073-42B8-BE58-16692740BC38}|WebAPI\\WebAPI.csproj|c:\\users\\nyzte\\source\\repos\\coreutility\\rezervizyapi\\webapi\\controllers\\cdqcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEB27DC2-A073-42B8-BE58-16692740BC38}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\cdqcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\RezervizyAPI\\WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\RezervizyAPI\\WebAPI\\appsettings.json",
+              "RelativeToolTip": "WebAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAADZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-22T17:34:50.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NtxsoContext.cs",
+              "DocumentMoniker": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\RezervizyAPI\\DACleaning\\Concrete\\EntityFramework\\Context\\NtxsoContext.cs",
+              "RelativeDocumentMoniker": "DACleaning\\Concrete\\EntityFramework\\Context\\NtxsoContext.cs",
+              "ToolTip": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\RezervizyAPI\\DACleaning\\Concrete\\EntityFramework\\Context\\NtxsoContext.cs",
+              "RelativeToolTip": "DACleaning\\Concrete\\EntityFramework\\Context\\NtxsoContext.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABMAAACTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T17:34:12.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\RezervizyAPI\\WebAPI\\Startup.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Startup.cs",
+              "ToolTip": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\RezervizyAPI\\WebAPI\\Startup.cs",
+              "RelativeToolTip": "WebAPI\\Startup.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T17:33:47.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderManager.cs",
+              "DocumentMoniker": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\RezervizyAPI\\BusinessWithSupplier\\Concrete\\OrderManager.cs",
+              "RelativeDocumentMoniker": "BusinessWithSupplier\\Concrete\\OrderManager.cs",
+              "ToolTip": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\RezervizyAPI\\BusinessWithSupplier\\Concrete\\OrderManager.cs",
+              "RelativeToolTip": "BusinessWithSupplier\\Concrete\\OrderManager.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T17:31:39.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomerNoteManager.cs",
+              "DocumentMoniker": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\RezervizyAPI\\BusinessWithSupplier\\Concrete\\CustomerNoteManager.cs",
+              "RelativeDocumentMoniker": "BusinessWithSupplier\\Concrete\\CustomerNoteManager.cs",
+              "ToolTip": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\RezervizyAPI\\BusinessWithSupplier\\Concrete\\CustomerNoteManager.cs",
+              "RelativeToolTip": "BusinessWithSupplier\\Concrete\\CustomerNoteManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T17:31:37.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddressManager.cs",
+              "DocumentMoniker": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\RezervizyAPI\\BusinessWithSupplier\\Concrete\\AddressManager.cs",
+              "RelativeDocumentMoniker": "BusinessWithSupplier\\Concrete\\AddressManager.cs",
+              "ToolTip": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\RezervizyAPI\\BusinessWithSupplier\\Concrete\\AddressManager.cs",
+              "RelativeToolTip": "BusinessWithSupplier\\Concrete\\AddressManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T17:31:28.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomerManager.cs",
+              "DocumentMoniker": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\RezervizyAPI\\BusinessWithSupplier\\Concrete\\CustomerManager.cs",
+              "RelativeDocumentMoniker": "BusinessWithSupplier\\Concrete\\CustomerManager.cs",
+              "ToolTip": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\RezervizyAPI\\BusinessWithSupplier\\Concrete\\CustomerManager.cs",
+              "RelativeToolTip": "BusinessWithSupplier\\Concrete\\CustomerManager.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T17:31:24.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomerWithSupplierController.cs",
+              "DocumentMoniker": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\RezervizyAPI\\WebAPI\\Controllers\\CustomerWithSupplierController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\CustomerWithSupplierController.cs",
+              "ToolTip": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\RezervizyAPI\\WebAPI\\Controllers\\CustomerWithSupplierController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\CustomerWithSupplierController.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T16:51:23.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CdqController.cs",
+              "DocumentMoniker": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\RezervizyAPI\\WebAPI\\Controllers\\CdqController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\CdqController.cs",
+              "ToolTip": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\RezervizyAPI\\WebAPI\\Controllers\\CdqController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\CdqController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T16:51:06.132Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

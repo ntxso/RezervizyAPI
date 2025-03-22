@@ -1,3 +1,8 @@
 is_global = true
 build_property.RootNamespace = CoreUtility
-build_property.ProjectDir = C:\Users\nyzte\source\repos\CoreUtility\CoreUtility\
+build_property.ProjectDir = C:\Users\nyzte\source\repos\CoreUtility\RezervizyAPI\CoreUtility\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

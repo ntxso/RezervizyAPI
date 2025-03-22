@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5JYItYWej38=",
+  "dgSpecHash": "t0eAkQPQbVE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\AutofacNew\\AutofacNew.csproj",
+  "projectFilePath": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\RezervizyAPI\\AutofacNew\\AutofacNew.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nyzte\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
     "C:\\Users\\nyzte\\.nuget\\packages\\epplus\\6.1.2\\epplus.6.1.2.nupkg.sha512",

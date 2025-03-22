@@ -1704,7 +1704,10 @@
           "Microsoft.Extensions.Logging.Configuration": "6.0.0"
         },
         "runtime": {
-          "BusinessWithSupplier.dll": {}
+          "BusinessWithSupplier.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Core/1.0.0": {
@@ -1714,7 +1717,10 @@
           "System.IdentityModel.Tokens.Jwt": "6.9.0"
         },
         "runtime": {
-          "Core.dll": {}
+          "Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "CoreNT/1.0.0": {
@@ -1726,7 +1732,10 @@
           "System.ComponentModel.Annotations": "5.0.0"
         },
         "runtime": {
-          "CoreNT.dll": {}
+          "CoreNT.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "DACleaning/1.0.0": {
@@ -1736,7 +1745,10 @@
           "EntitiesCleaning": "1.0.0"
         },
         "runtime": {
-          "DACleaning.dll": {}
+          "DACleaning.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "EntitiesCleaning/1.0.0": {
@@ -1745,7 +1757,10 @@
           "CoreNT": "1.0.0"
         },
         "runtime": {
-          "EntitiesCleaning.dll": {}
+          "EntitiesCleaning.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

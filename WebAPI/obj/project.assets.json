@@ -6739,11 +6739,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\RezervizyAPI\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\WebAPI\\WebAPI.csproj",
+      "projectPath": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\RezervizyAPI\\WebAPI\\WebAPI.csproj",
       "packagesPath": "C:\\Users\\nyzte\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\RezervizyAPI\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6765,11 +6765,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\AutofacNew\\AutofacNew.csproj": {
-              "projectPath": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\AutofacNew\\AutofacNew.csproj"
+            "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\RezervizyAPI\\AutofacNew\\AutofacNew.csproj": {
+              "projectPath": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\RezervizyAPI\\AutofacNew\\AutofacNew.csproj"
             },
-            "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\BusinessWithSupplier\\BusinessWithSupplier.csproj": {
-              "projectPath": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\BusinessWithSupplier\\BusinessWithSupplier.csproj"
+            "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\RezervizyAPI\\BusinessWithSupplier\\BusinessWithSupplier.csproj": {
+              "projectPath": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\RezervizyAPI\\BusinessWithSupplier\\BusinessWithSupplier.csproj"
             }
           }
         }
@@ -6822,7 +6822,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

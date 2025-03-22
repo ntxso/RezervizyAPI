@@ -16,7 +16,8 @@ namespace DACleaning.Concrete.EntityFramework.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"server=mssql04.trwww.com; initial catalog=ntxs6308_ntxsocom; User ID=ntxso; Password=138181.Nt");
+            //optionsBuilder.UseSqlServer(@"server=mssql04.trwww.com; initial catalog=ntxs6308_ntxsocom; User ID=ntxso; Password=138181.Nt");
+            optionsBuilder.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=rezervizy;Integrated Security=True;Connect Timeout=30;");
         }
 
         public DbSet<Customer> Customers { get; set; }

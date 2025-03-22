@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9zNq/Av1l/8=",
+  "dgSpecHash": "eKbHrQpYRhM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\EntitiesCleaning\\EntitiesCleaning.csproj",
+  "projectFilePath": "C:\\Users\\nyzte\\source\\repos\\CoreUtility\\RezervizyAPI\\EntitiesCleaning\\EntitiesCleaning.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nyzte\\.nuget\\packages\\epplus\\6.1.2\\epplus.6.1.2.nupkg.sha512",
     "C:\\Users\\nyzte\\.nuget\\packages\\epplus.interfaces\\6.1.1\\epplus.interfaces.6.1.1.nupkg.sha512",
