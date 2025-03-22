@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CoreCRUD\Core.csproj" />
+    <ProjectReference Include="..\CoreNT\CoreNT.csproj" />
+    <ProjectReference Include="..\EntitiesCleaning\EntitiesCleaning.csproj" />
+  </ItemGroup>
+
+</Project>

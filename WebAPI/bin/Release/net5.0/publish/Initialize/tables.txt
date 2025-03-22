@@ -1,0 +1,28 @@
+﻿CREATE TABLE [dbo].[Users] (
+    [Id]           INT             IDENTITY (1, 1) NOT NULL,
+    [IdentityName] VARCHAR (50)    NULL,
+    [Email]        VARCHAR (50)    NULL,
+    [Status]       BIT             NULL,
+    [PasswordSalt] VARBINARY (500) NULL,
+    [PasswordHash] VARBINARY (500) NULL,
+    [FirstName]    VARCHAR (50)    NULL,
+    [BackupId]     INT             CONSTRAINT [DF_Users_BackupId] DEFAULT ((0)) NOT NULL,
+    [PhoneNumber]  NVARCHAR (20)   NULL,
+    [LastName]     NVARCHAR (50)   NULL,
+    [SupplierId]   INT             CONSTRAINT [DF_Users_SupplierId] DEFAULT ((0)) NOT NULL,
+    [Premium]      BIT             CONSTRAINT [DF_Users_Premium] DEFAULT ((0)) NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
+CREATE TABLE [dbo].[OperationClaims] (
+    [Id]   INT           IDENTITY (1, 1) NOT NULL,
+    [Name] VARCHAR (500) NULL,
+    CONSTRAINT [PK_OperationClaims] PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
+CREATE TABLE [dbo].[UserOperationClaims] (
+    [Id]               INT IDENTITY (1, 1) NOT NULL,
+    [UserId]           INT NULL,
+    [OperationClaimId] INT NULL,
+    CONSTRAINT [PK_UserOperationClaims] PRIMARY KEY CLUSTERED ([Id] ASC)
+);

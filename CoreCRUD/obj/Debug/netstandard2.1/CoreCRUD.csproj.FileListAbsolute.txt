@@ -1,0 +1,5 @@
+C:\Users\IstChiaPc\source\repos\AllProjectsNT\CoreCRUD\obj\Debug\netstandard2.1\CoreCRUD.csproj.AssemblyReference.cache
+C:\Users\IstChiaPc\source\repos\AllProjectsNT\CoreCRUD\obj\Debug\netstandard2.1\CoreCRUD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IstChiaPc\source\repos\AllProjectsNT\CoreCRUD\obj\Debug\netstandard2.1\CoreCRUD.AssemblyInfoInputs.cache
+C:\Users\IstChiaPc\source\repos\AllProjectsNT\CoreCRUD\obj\Debug\netstandard2.1\CoreCRUD.AssemblyInfo.cs
+C:\Users\IstChiaPc\source\repos\AllProjectsNT\CoreCRUD\obj\Debug\netstandard2.1\CoreCRUD.csproj.CoreCompileInputs.cache

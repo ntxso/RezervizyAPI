@@ -1,0 +1,79 @@
+﻿@page "/customerslist"
+@using WebUI.Components;
+@using System.Net;
+@using Blazored.LocalStorage
+@inject IAuthService AuthSer
+@inject ICustomerService CustSer
+@inject ILocalStorageService LocalStorage
+@inject UserControlBase UserControl
+<h3>CustomerList</h3>
+
+<nav class="navbar navbar-light bg-light">
+            <forms class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="TelNo ile" aria-label="Listele" @bind="phoneNumber" @bind:event="oninput" @onchange="getList">
+                <input class="form-control mr-sm-2" type="search" placeholder="İsim ile" aria-label="Listele" @bind="name" @bind:event="oninput" @onchange="getList">
+                <SelectNT ChangeAction="setDistrict" IdNameEnum="_districts" SelectedValue="@filterDistrictId"></SelectNT>
+                @if (filterDistrictId > 0)
+                {
+                    <SelectNT ChangeAction="setQuarter" IdNameEnum="_quarters"></SelectNT>
+                }
+                <button class="btn btn-outline-success my-2 my-sm-0" @onclick="getList">Listele</button>
+                <a class="btn btn-outline-danger my-2 my-sm-0 ml-1" href="auth/supplier/customeradd">Müşteri Ekle</a>
+            </forms>
+            <div class="form-outline">
+                <input type="text" id="formxc1"/>
+                <label class="form-label" for="formxc1">Telefon num gir</label>
+            </div>
+        </nav>
+
+@if (customers == null)
+{
+    <p>@warning</p>
+}
+else
+{
+    <p>@customers.Length adet kayıt geldi</p>
+    <p>@warning</p>
+}
+
+@code {
+    string warning = "Hazırlanıyor..";
+    CustomerDtoModel[] customers;
+    List<INameId> _districts = new List<INameId>();
+    List<INameId> _quarters = new List<INameId>();
+
+    string phoneNumber = string.Empty;
+    string name = string.Empty;
+    int filterDistrictId = 0;
+    int filterQuartID = 0;
+
+    protected override async Task OnInitializedAsync()
+    {
+        _districts.Add(new NameId { Id = 0, Name = "Tüm ilçeler" });
+        _districts.Add(new NameId { Id = 222, Name = "Buca" });
+
+        if (!UserControl.FirstRun)
+        {
+            warning += " checkuser çalıştı:" + UserControl.CtorCount;
+            if(!(await UserControl.CheckUser()))
+            {
+                warning += " giriş yapılması gerekiyor!!!! ";
+                return;
+            }
+        }
+        customers = await CustSer.GetCustomersDto(UserControl.SupplierId);
+    }
+
+    void getList()
+    {
+
+    }
+    void setQuarter(ChangeEventArgs eventArgs)
+    {
+
+    }
+    void setDistrict(ChangeEventArgs eventArgs)
+    {
+        
+    }
+}

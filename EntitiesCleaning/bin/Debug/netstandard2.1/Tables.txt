@@ -1,0 +1,113 @@
+﻿
+CREATE TABLE [dbo].[LogCleaning] (
+    [Id]         INT            IDENTITY (1, 1) NOT NULL,
+    [Time]       DATETIME       CONSTRAINT [DF_LogCleaning_Time] DEFAULT (getdate()) NOT NULL,
+    [LogText]    NVARCHAR (255) CONSTRAINT [DF_LogCleaning_LogText] DEFAULT (N'_blankNote') NOT NULL,
+    [LogLevel]   INT            CONSTRAINT [DF_LogCleaning_LogLevel] DEFAULT ((0)) NOT NULL,
+    [SupplierId] INT            CONSTRAINT [DF_LogCleaning_SupplierId] DEFAULT ((0)) NOT NULL,
+    CONSTRAINT [PK_LogCleaning2] PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
+CREATE TABLE [dbo].[Users] (
+    [Id]           INT             IDENTITY (1, 1) NOT NULL,
+    [IdentityName] VARCHAR (50)    NULL,
+    [Email]        VARCHAR (50)    NULL,
+    [Status]       BIT             NULL,
+    [PasswordSalt] VARBINARY (500) NULL,
+    [PasswordHash] VARBINARY (500) NULL,
+    [FirstName]    VARCHAR (50)    NULL,
+    [BackupId]     INT             CONSTRAINT [DF_Users_BackupId] DEFAULT ((0)) NOT NULL,
+    [PhoneNumber]  NVARCHAR (20)   NULL,
+    [LastName]     NVARCHAR (50)   NULL,
+    [SupplierId]   INT             CONSTRAINT [DF_Users_SupplierId] DEFAULT ((0)) NOT NULL,
+    [Premium]      BIT             CONSTRAINT [DF_Users_Premium] DEFAULT ((0)) NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
+CREATE TABLE [dbo].[OperationClaims] (
+    [Id]   INT           IDENTITY (1, 1) NOT NULL,
+    [Name] VARCHAR (500) NULL,
+    CONSTRAINT [PK_OperationClaims] PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
+
+CREATE TABLE [dbo].[UserOperationClaims] (
+    [Id]               INT IDENTITY (1, 1) NOT NULL,
+    [UserId]           INT NULL,
+    [OperationClaimId] INT NULL,
+    CONSTRAINT [PK_UserOperationClaims] PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
+CREATE TABLE [dbo].[Addresses] (
+    [Id]         INT            IDENTITY (1, 1) NOT NULL,
+    [CustomerId] INT            NOT NULL,
+    [CityId]     INT            NOT NULL,
+    [DistrictId] INT            NOT NULL,
+    [QuarterId]  INT            NOT NULL,
+    [Address]    NVARCHAR (200) NULL,
+    CONSTRAINT [PK_Addresses] PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
+CREATE TABLE [dbo].[Cities] (
+    [Id]   INT           NOT NULL,
+    [Name] NVARCHAR (50) NOT NULL,
+    CONSTRAINT [PK_Cities] PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
+CREATE TABLE [dbo].[CustomerNotes] (
+    [NoteId]     INT            IDENTITY (1, 1) NOT NULL,
+    [CustomerId] INT            NOT NULL,
+    [Note]       NVARCHAR (MAX) NULL,
+    CONSTRAINT [PK_CustomerNotes] PRIMARY KEY CLUSTERED ([NoteId] ASC)
+);
+
+CREATE TABLE [dbo].[Customers] (
+    [Id]          INT           IDENTITY (1, 1) NOT NULL,
+    [SupplierId]  INT           NOT NULL,
+    [PhoneNumber] NVARCHAR (40) NOT NULL,
+    [Name]        NVARCHAR (30) NULL,
+    [BackupId]    INT           CONSTRAINT [DF_Customers_BackupId] DEFAULT ((0)) NOT NULL,
+    CONSTRAINT [PK_Customers] PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
+CREATE TABLE [dbo].[Districts] (
+    [Id]     INT           NOT NULL,
+    [CityId] INT           NOT NULL,
+    [Name]   NVARCHAR (50) NOT NULL,
+    CONSTRAINT [pk_districts] PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
+
+
+CREATE TABLE [dbo].[Orders] (
+    [OrderId]      INT            IDENTITY (1, 1) NOT NULL,
+    [CustomerId]   INT            NOT NULL,
+    [Status]       INT            NOT NULL,
+    [TakingDate]   DATETIME       NULL,
+    [DeliveryDate] DATETIME       NULL,
+    [Terminal]     INT            NOT NULL,
+    [Total]        MONEY          NULL,
+    [Paid]         MONEY          NULL,
+    [Note]         NVARCHAR (MAX) NULL,
+    CONSTRAINT [PK_Orders] PRIMARY KEY CLUSTERED ([OrderId] ASC)
+);
+
+CREATE TABLE [dbo].[Quarters] (
+    [Id]         INT           NOT NULL,
+    [CityId]     INT           NOT NULL,
+    [DistrictId] INT           NOT NULL,
+    [Name]       NVARCHAR (75) NOT NULL,
+    CONSTRAINT [pk_quarters5] PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
+CREATE TABLE [dbo].[SupplierDefault] (
+    [Id]         INT IDENTITY (1, 1) NOT NULL,
+    [UserId]     INT NOT NULL,
+    [CityId]     INT NOT NULL,
+    [DistrictId] INT NOT NULL,
+    [QuarterId]  INT NOT NULL,
+    CONSTRAINT [PK_SupplierDefault3] PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
+
+

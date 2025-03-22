@@ -1,0 +1,28 @@
+﻿@inject UserControlBase UserControlInfo
+@inject Blazored.LocalStorage.ILocalStorageService LocalStorage
+@inject IAuthService AuthService
+@inject NavigationManager Navi
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        if (UserControlInfo.IsLoggedIn)//herşey tamam
+        {
+            //sorun yok işleme devam
+        }
+        else
+        {
+            if (await AuthService.SetAuthorizationHeader())//kayıt var usercontrol boş
+            {
+                UserControlInfo.SupplierId = await LocalStorage.GetItemAsync<int>("supplierid");
+                UserControlInfo.Email = await LocalStorage.GetItemAsync<string>("email");
+                UserControlInfo.Token = await LocalStorage.GetItemAsync<string>("token");
+                UserControlInfo.IsLoggedIn = true;
+            }
+            else
+            {
+                //token localde yoksa
+                Navi.NavigateTo("/login", forceLoad: true);
+            }
+        }
+    }
+}
